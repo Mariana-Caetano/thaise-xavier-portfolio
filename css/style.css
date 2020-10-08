@@ -6,6 +6,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #2a4d6b;
+  margin: 0 0 50px 0;
 }
 
 header {
@@ -80,8 +81,8 @@ h1 {
 #sobre {
   background: linear-gradient(113.87deg, #2a4d6b -14.91%, #6d95af 111.66%);
   text-align: justify;
-  padding: 99px 250px 98px 250px;
-  width: 90%;
+  padding: 99px 150px 98px 250px;
+  width: 150%;
   max-width: 980px;
   margin: auto;
 }
@@ -145,6 +146,17 @@ a {
   color: #ff9582;
   font-weight: 600;
   font-size: 36px;
+}
+
+#resultados {
+  text-align: center;
+  width: 90%;
+  max-width: 980px;
+  margin: auto;
+}
+
+.texto-result {
+  text-align: center;
 }
 
 /*header ul li {
