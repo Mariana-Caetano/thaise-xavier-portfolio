@@ -2,7 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&display=swap"
       rel="stylesheet"
@@ -20,8 +24,8 @@
     <title>Thaise Xavier</title>
   </head>
   <body background="./img/Mask Group.png">
-    <section id="resumo">
-      <nav class="menu">
+    <header>
+      <nav>
         <ul>
           <li>
             <a href="#sobre">SOBRE</a>
@@ -40,14 +44,16 @@
           </li>
         </ul>
       </nav>
-      <div id="retangulo"></div>
       <h1>
-        Olá,<br />
-        Sou Thaise Xavier, jornalista autônoma<br />
-        especializada em projetos de produção de<br />
-        conteúdo e comunicação.
+        Olá!<br />
+        Sou Thaise Xavier, jornalista autônoma especializada em projetos de
+        produção de conteúdo e comunicação.
       </h1>
-    </section>
+      <p>Você pode conversar comigo por aqui:</p>
+
+      <a class="contato" href="www.instagram.com" target="blank">Instagram</a>
+      <a class="contato" href="www.gmail.com" target="blank">e-mail</a>
+    </header>
 
     <section id="sobre">
       <p class="texto-sobre">
@@ -110,7 +116,7 @@
     </section>
 
     <section id="clientes">
-      <h2>ALGUNS CLIENTES COM QUEM TRABALHEI:</h2>
+      <h2 class="pessoas">CLIENTES COM QUEM TRABALHEI:</h2>
       <ul>
         <li class="clients">
           Cátia Damasceno
@@ -154,6 +160,7 @@
       </ul>
     </section>
     <section id="resultados">
+      <h2 class="texto-result">CONHEÇA ALGUNS DOS MEUS RESULTADOS</h2>
       <div class="slideshow">
         <input type="radio" name="slide" id="item-1" checked="checked" />
         <div class="slideshow-item">
