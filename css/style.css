@@ -10,25 +10,30 @@ body {
 }
 
 header {
-  /*display: flex;
-  align-items: center;
-  justify-content: space-between;*/
+  display: inline-block;
   width: 90%;
   max-width: 980px;
   margin: auto;
   padding: 0 0 109px 0;
 }
 
+header img {
+  width: 155px;
+  height: 156px;
+  left: 625px;
+  padding-top: 32px;
+}
+
 header nav {
   background-color: transparent;
   height: 40px;
   max-width: 980px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0;
+  /*margin: 0 auto;*/
+  display: inline-flex;
+  flex-direction: row;
+  padding: 32px 0 0 0;
   width: 90%;
+  justify-content: space-around;
 }
 
 header p {
@@ -44,18 +49,18 @@ header nav ul {
 
 header nav ul li {
   list-style: none;
-  display: inline-block;
 }
 
 header nav ul li a {
   text-decoration: none;
   color: #2a4d6b;
   text-transform: uppercase;
-  font-size: 1.4rem;
-  padding: 1.4rem;
+  font-size: 24px;
+  font-weight: 400;
   width: 90%;
   max-width: 980px;
   margin: auto;
+  padding: 50px;
 }
 
 h1 {
@@ -81,8 +86,8 @@ h1 {
 #sobre {
   background: linear-gradient(113.87deg, #2a4d6b -14.91%, #6d95af 111.66%);
   text-align: justify;
-  padding: 99px 150px 98px 250px;
-  width: 150%;
+  /*padding: 99px 150px 98px 250px;*/
+  width: 90%;
   max-width: 980px;
   margin: auto;
 }
@@ -120,6 +125,13 @@ ul li span {
   font-style: normal;
   font-size: 30px;
   line-height: 220%;
+}
+
+.abstrata-rose {
+  width: 522.87px;
+  height: 447.1px;
+  left: 1139px;
+  top: 2111.72px;
 }
 
 #clientes {
