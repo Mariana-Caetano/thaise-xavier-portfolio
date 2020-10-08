@@ -1,4 +1,5 @@
 body {
+  height: 100vh;
   background-color: #e5e5e5;
   background-repeat: no-repeat;
   background-position: top right;
@@ -86,7 +87,7 @@ h1 {
 #sobre {
   background: linear-gradient(113.87deg, #2a4d6b -14.91%, #6d95af 111.66%);
   text-align: justify;
-  /*padding: 99px 150px 98px 250px;*/
+  padding: 115px 370px 114px 370px;
   width: 90%;
   max-width: 980px;
   margin: auto;
@@ -96,7 +97,8 @@ h1 {
   font-family: 'Work Sans', serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
+  font-size: 24px;
+  line-height: 160%;
   color: #edd6b9;
   width: 90%;
   max-width: 980px;
