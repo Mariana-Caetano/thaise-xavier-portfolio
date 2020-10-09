@@ -1,9 +1,10 @@
 body {
   height: 100vh;
   background-color: #e5e5e5;
+  background-image: url('../img/Mask\ Group.png');
   background-repeat: no-repeat;
   background-position: top right;
-  background-size: 1000px;
+  background-size: 1460px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #2a4d6b;
@@ -12,30 +13,22 @@ body {
 }
 
 header {
+  background-image: url('../img/thaise_logo.png');
+  background-repeat: no-repeat;
+  background-position: top center;
   display: inline-block;
   width: 90%;
   max-width: 980px;
-  margin: auto;
+  margin: 50px auto;
   padding: 0 0 109px 0;
 }
 
-header img {
-  width: 155px;
-  height: 156px;
-  left: 625px;
-  padding-top: 32px;
-}
-
 header nav {
-  /*background-color: transparent;
-  height: 40px;
-  max-width: 980px;
-  /*margin: 0 auto;*/
-  /*display: inline-flex;
-  flex-direction: row;
-  padding: 32px 0 0 0;
-  width: 90%;
-  justify-content: space-around;*/
+  position: absolute;
+  top: 32px;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 
 header p {
@@ -47,10 +40,18 @@ header p {
 
 header nav ul {
   display: flex;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-around;
+  padding: 0.5rem 1rem;
 }
 
 header nav ul li {
   list-style: none;
+  padding-left: 80px;
+  padding-right: 15px;
 }
 
 header nav ul li a {
@@ -72,7 +73,7 @@ h1 {
   font-size: 50px;
   line-height: 167%px;
   color: #2a4d6b;
-  margin: 180px auto 90px auto;
+  margin: 268px auto 90px auto;
   text-align: center;
 }
 
