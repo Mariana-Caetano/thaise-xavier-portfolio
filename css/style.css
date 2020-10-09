@@ -133,6 +133,7 @@ h1 {
   max-width: 980px;
   margin: auto;
 }
+
 h2 {
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
@@ -307,15 +308,16 @@ a {
   left: 580px;
 }
 
-@media only screen and (max-width: 767px) {
-  nav {
-    display: inline-block;
+@media screen and (max-width: 767px) {
+  header nav {
+    display: block;
   }
 
   nav ul {
     display: inline;
-    flex-direction: row;
+    flex-direction: column;
     text-align: center;
+    width: 85%;
   }
 
   header {
@@ -339,9 +341,18 @@ a {
     display: flex;
     flex-direction: column;
     padding-bottom: 25px;
-    text-align: justify;
+    text-align: center;
+    font-size: 1.5rem;
+    width: 95%;
+  }
+  .li-servicos {
+    text-align: center;
   }
 
+  ul li span {
+    font-size: 1.5rem;
+    width: 50%;
+  }
   .slider {
     width: 100%;
   }
