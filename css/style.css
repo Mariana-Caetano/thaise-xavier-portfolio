@@ -1,4 +1,8 @@
-* {
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -93,7 +97,8 @@ h1 {
 
 #sobre {
   background: linear-gradient(113.87deg, #2a4d6b -14.91%, #6d95af 111.66%);
-  padding: 115px 200px 114px 300px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 
   /*padding-top: 100px;
   padding-left: 200px;
@@ -110,15 +115,15 @@ h1 {
 
 .texto-sobre {
   text-align: justify;
-  display: block;
   font-family: 'Work Sans', serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 160%;
+  line-height: 1.5;
   color: #edd6b9;
   width: 90%;
-  max-width: 980px;
+  max-width: 1440px;
+  font-size: 20px;
 }
 #servicos {
   text-align: justify;
@@ -313,6 +318,19 @@ a {
 
   header {
     background-image: none;
+  }
+
+  #sobre {
+    display: block;
+  }
+  .texto-sobre {
+    padding-left: 27px;
+    padding-top: 14px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+
+    text-align: justify;
   }
 }
 
