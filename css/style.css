@@ -239,7 +239,7 @@ a {
   cursor: pointer;
   display: block;
   height: 10px;
-  position: absolute;
+  position: relative;
   width: 10px;
   z-index: 10;
 }
@@ -322,6 +322,11 @@ a {
     background-image: none;
   }
 
+  h1 {
+    font-size: 2rem;
+    line-height: 6rem;
+    width: 100%;
+  }
   #sobre {
     display: block;
     padding-left: 0;
@@ -334,8 +339,16 @@ a {
     display: flex;
     flex-direction: column;
     padding-bottom: 25px;
-
     text-align: justify;
+  }
+
+  .slider {
+    width: 100%;
+  }
+
+  .slider label {
+    width: 5px;
+    height: 5px;
   }
 }
 
