@@ -3,11 +3,12 @@ body {
   background-color: #e5e5e5;
   background-repeat: no-repeat;
   background-position: top right;
-  background-size: 980px;
+  background-size: 1000px;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #2a4d6b;
-  margin: 0 0 50px 0;
+  margin-bottom: 50px;
+  margin: 0;
 }
 
 header {
@@ -26,15 +27,15 @@ header img {
 }
 
 header nav {
-  background-color: transparent;
+  /*background-color: transparent;
   height: 40px;
   max-width: 980px;
   /*margin: 0 auto;*/
-  display: inline-flex;
+  /*display: inline-flex;
   flex-direction: row;
   padding: 32px 0 0 0;
   width: 90%;
-  justify-content: space-around;
+  justify-content: space-around;*/
 }
 
 header p {
@@ -69,9 +70,10 @@ h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 50px;
-  line-height: 80px;
+  line-height: 167%px;
   color: #2a4d6b;
   margin: 180px auto 90px auto;
+  text-align: center;
 }
 
 .contato {
@@ -86,14 +88,26 @@ h1 {
 
 #sobre {
   background: linear-gradient(113.87deg, #2a4d6b -14.91%, #6d95af 111.66%);
-  text-align: justify;
-  padding: 115px 370px 114px 370px;
-  width: 90%;
-  max-width: 980px;
-  margin: auto;
+  width: 1349;
+  height: 512;
+  padding: 115px 200px 114px 300px;
+
+  /*padding-top: 100px;
+  padding-left: 200px;
+  padding-right: 150px;
+  padding bottom: 80px;
+  justify-content: center;
+  /*width: 90%;
+  height: 670px;
+
+  padding: 115px 130px 114px 230px;
+  
+  margin: auto;*/
 }
 
 .texto-sobre {
+  text-align: justify;
+  display: block;
   font-family: 'Work Sans', serif;
   font-style: normal;
   font-weight: normal;
@@ -200,6 +214,7 @@ a {
   opacity: 1;
   visibility: visible;
   z-index: 10;
+  margin-bottom: 80px;
 }
 
 .slider input {
@@ -207,7 +222,7 @@ a {
 }
 
 .slider label {
-  background-color: #000;
+  background-color: #2a4d6b;
   bottom: 10px;
   cursor: pointer;
   display: block;
