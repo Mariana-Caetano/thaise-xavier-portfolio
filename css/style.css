@@ -97,8 +97,10 @@ h1 {
 
 #sobre {
   background: linear-gradient(113.87deg, #2a4d6b -14.91%, #6d95af 111.66%);
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 115px;
+  padding-bottom: 114px;
+  padding-left: 330px;
+  padding-right: 160px;
 
   /*padding-top: 100px;
   padding-left: 200px;
@@ -119,11 +121,11 @@ h1 {
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 1.5;
+  line-height: 160%;
   color: #edd6b9;
   width: 90%;
-  max-width: 1440px;
-  font-size: 20px;
+  max-width: 980px;
+  padding-bottom: 50px;
 }
 #servicos {
   text-align: justify;
@@ -322,6 +324,9 @@ a {
 
   #sobre {
     display: block;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 115px;
   }
   .texto-sobre {
     padding-left: 27px;
