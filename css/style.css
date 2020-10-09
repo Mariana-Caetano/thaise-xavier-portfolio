@@ -527,18 +527,122 @@ a {
 #carousel6:checked
   ~ .carousel__stage
   .carousel__item:nth-child(6)
-  .carousel__next
-  #carousel6:checked
+  .carousel__prev,
+#carousel6:checked
   ~ .carousel__stage
   .carousel__item:nth-child(6)
-  .carousel__next
-  #carousel7:checked
+  .carousel__next,
+#carousel7:checked
   ~ .carousel__stage
   .carousel__item:nth-child(7)
-  .carousel__next
-  #carousel7:checked
+  .carousel__prev,
+#carousel7:checked
   ~ .carousel__stage
   .carousel__item:nth-child(7)
+  .carousel__next,
+#carousel8:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(8)
+  .carousel__prev,
+#carousel8:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(8)
+  .carousel__next,
+#carousel9:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(9)
+  .carousel__prev,
+#carousel9:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(9)
+  .carousel__next,
+#carousel10:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(10)
+  .carousel__prev,
+#carousel10:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(10)
+  .carousel__next,
+#carousel11:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(11)
+  .carousel__prev,
+#carousel11:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(11)
+  .carousel__next,
+#carousel12:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(12)
+  .carousel__prev,
+#carousel12:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(12)
+  .carousel__next,
+#carousel13:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(13)
+  .carousel__prev,
+#carousel13:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(13)
+  .carousel__next,
+#carousel14:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(14)
+  .carousel__prev,
+#carousel14:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(14)
+  .carousel__next,
+#carousel15:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(15)
+  .carousel__prev,
+#carousel15:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(15)
+  .carousel__next,
+#carousel16:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(16)
+  .carousel__prev,
+#carousel16:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(16)
+  .carousel__next,
+#carousel17:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(17)
+  .carousel__prev,
+#carousel17:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(17)
+  .carousel__next,
+#carousel18:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(18)
+  .carousel__prev,
+#carousel18:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(18)
+  .carousel__next,
+#carousel19:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(19)
+  .carousel__prev,
+#carousel19:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(19)
+  .carousel__next,
+#carousel20:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(20)
+  .carousel__prev,
+#carousel20:checked
+  ~ .carousel__stage
+  .carousel__item:nth-child(20)
   .carousel__next {
   display: block;
 }
