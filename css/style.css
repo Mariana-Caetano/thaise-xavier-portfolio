@@ -520,13 +520,15 @@ a {
 }
 @media screen and (max-width: 767px) {
   header nav {
-    display: block;
+    display: inline-block;
+    width: fit-content;
   }
 
   nav ul {
     display: inline;
-    flex-direction: column;
-    text-align: center;
+    flex-direction: row;
+    text-align: justify;
+    width: 85%;
   }
 
   nav ul li a {
@@ -535,7 +537,7 @@ a {
 
   header {
     background-image: url('../img/thaise_logo.png');
-    background-size: 30%;
+    background-size: 25%;
     background-position: center 20%;
   }
 
