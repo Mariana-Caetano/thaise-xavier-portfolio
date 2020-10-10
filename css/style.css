@@ -65,7 +65,6 @@ header nav ul li {
 header nav ul li a {
   text-decoration: none;
   color: #2a4d6b;
-  text-transform: uppercase;
   font-size: 24px;
   font-weight: 400;
   width: 90%;
@@ -311,7 +310,7 @@ a {
   font-size: 0;
   white-space: nowrap;
   width: 100%;
-  height: 100%;
+  height: 80%;
   transition: text-indent 600ms;
   position: relative;
 }
@@ -319,7 +318,7 @@ a {
 .carousel__item {
   display: inline-block;
   width: 100%;
-  height: 100%;
+  height: 80%;
   overflow: hidden;
   text-indent: 0;
   opacity: 0.6;
@@ -327,8 +326,9 @@ a {
 }
 
 .carousel__image {
-  height: 100%;
-  width: auto;
+  height: 85%;
+  width: 85%;
+  padding-bottom: 100px;
   display: inline-block;
 }
 
@@ -691,7 +691,27 @@ a {
     font-size: 1.5rem;
     width: 50%;
   }
-  .slider {
+
+  .carousel__image {
+    height: 85%;
+    width: 85%;
+    padding-bottom: 100px;
+    display: inline-block;
+  }
+
+  .carousel__next,
+  .carousel__prev {
+    display: none;
+    position: absolute;
+    top: 25%;
+    color: #fff;
+    background: #2a4d6b;
+    z-index: 1;
+    font-size: 1rem;
+    padding: 9px;
+    cursor: pointer;
+  }
+  /*.slider {
     width: 100%;
   }
 
@@ -699,5 +719,5 @@ a {
     width: 5px;
     height: 5px;
     max-width: 50%;
-  }
+  }*/
 }
