@@ -115,9 +115,13 @@ h1 {
   padding-bottom: 50px;
 }
 #servicos {
+  background-image: url('../img/círculos.png');
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  background-position: center;
   text-align: justify;
   width: 90%;
-  max-width: 980px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -146,13 +150,6 @@ ul li span {
   font-style: normal;
   font-size: 24px;
   line-height: 160%;
-}
-
-.abstrata-rose {
-  width: 522.87px;
-  height: 447.1px;
-  left: 1139px;
-  top: 2111.72px;
 }
 
 #clientes {
@@ -187,113 +184,21 @@ a {
   text-align: center;
 }
 
-/*.slider {
-  display: block;
-  height: 293px;
-  width: 600px;
-  margin: auto;
-  margin-top: 20px;
-  position: relative;
-}
-
-.slider li {
-  list-style: none;
-  position: absolute;
-}
-
-.slider img {
-  margin: auto;
-  height: 100%;
-  width: 100%;
-  vertical-align: top;
-  opacity: 0;
-  visibility: hidden;
-}
-
-.slider li input:checked ~ img {
-  opacity: 1;
-  visibility: visible;
-  z-index: 10;
+#retangulo1 {
+  width: 1000px;
+  height: 5px;
   margin-bottom: 80px;
+  background-color: #6d95af;
 }
 
-.slider input {
-  display: none;
+#retangulo2 {
+  width: 1000px;
+  height: 5px;
+  margin-top: 0;
+  margin-bottom: 100px;
+  background-color: #6d95af;
 }
 
-.slider label {
-  background-color: #2a4d6b;
-  bottom: 10px;
-  cursor: pointer;
-  display: block;
-  height: 10px;
-  position: relative;
-  left: 10px;
-  width: 50px;
-}
-
-.slider li:nth-child(1) label {
-  left: 10px;
-}
-
-.slider li:nth-child(2) label {
-  left: 40px;
-}
-
-.slider li:nth-child(3) label {
-  left: 70px;
-}
-.slider li:nth-child(4) label {
-  left: 100px;
-}
-.slider li:nth-child(5) label {
-  left: 130px;
-}
-.slider li:nth-child(6) label {
-  left: 160px;
-}
-.slider li:nth-child(7) label {
-  left: 190px;
-}
-.slider li:nth-child(8) label {
-  left: 220px;
-}
-.slider li:nth-child(9) label {
-  left: 250px;
-}
-.slider li:nth-child(10) label {
-  left: 280px;
-}
-.slider li:nth-child(11) label {
-  left: 310px;
-}
-.slider li:nth-child(12) label {
-  left: 340px;
-}
-.slider li:nth-child(13) label {
-  left: 370px;
-}
-.slider li:nth-child(14) label {
-  left: 400px;
-}
-.slider li:nth-child(15) label {
-  left: 430px;
-}
-.slider li:nth-child(16) label {
-  left: 460px;
-}
-.slider li:nth-child(17) label {
-  left: 490px;
-}
-.slider li:nth-child(18) label {
-  left: 520px;
-}
-.slider li:nth-child(19) label {
-  left: 550px;
-}
-.slider li:nth-child(20) label {
-  left: 580px;
-}*/
 .carousel {
   width: 100%;
   height: 100%;
@@ -677,13 +582,10 @@ a {
     padding: 9px;
     cursor: pointer;
   }
-  /*.slider {
+  #retangulo1 {
     width: 100%;
   }
-
-  .slider label {
-    width: 5px;
-    height: 5px;
-    max-width: 50%;
-  }*/
+  #retangulo2 {
+    width: 100%;
+  }
 }
