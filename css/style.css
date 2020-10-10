@@ -366,57 +366,23 @@ a {
 #carousel1:checked ~ .carousel__stage .carousel__item:nth-child(1),
 #carousel2:checked ~ .carousel__stage .carousel__item:nth-child(2),
 #carousel3:checked ~ .carousel__stage .carousel__item:nth-child(3),
-#carousel4:checked
-  ~ .carousel__stage
-  .carousel__item:nth-child(4)
-  #carousel5:checked
-  ~ .carousel__stage
-  .carousel__item:nth-child(5)
-  #carousel6:checked
-  ~ .carousel__stage
-  .carousel__item:nth-child(6)
-  #carousel7:checked
-  ~ .carousel__stage
-  .carousel__item:nth-child(7)
-  #carousel8:checked
-  ~ .carousel__stage
-  .carousel__item:nth-child(8)
-  #carousel9:checked
-  ~ .carousel__stage
-  .carousel__item:nth-child(9)
-  #carousel10:checked
-  ~ .carousel__stage
-  .carousel__item:nth-child(10)
-  #carousel11:checked
-  ~ .carousel__stage
-  .carousel__item:nth-child(11)
-  #carousel12:checked
-  ~ .carousel__stage
-  .carousel__item:nth-child(12)
-  #carousel13:checked
-  ~ .carousel__stage
-  .carousel__item:nth-child(13)
-  #carousel14:checked
-  ~ .carousel__stage
-  .carousel__item:nth-child(14)
-  #carousel15:checked
-  ~ .carousel__stage
-  .carousel__item:nth-child(15)
-  #carousel16:checked
-  ~ .carousel__stage
-  .carousel__item:nth-child(16)
-  #carousel17:checked
-  ~ .carousel__stage
-  .carousel__item:nth-child(17)
-  #carousel18:checked
-  ~ .carousel__stage
-  .carousel__item:nth-child(18)
-  #carousel19:checked
-  ~ .carousel__stage
-  .carousel__item:nth-child(19)
-  #carousel20:checked
-  ~ .carousel__stage
-  .carousel__item:nth-child(20) {
+#carousel4:checked ~ .carousel__stage .carousel__item:nth-child(4),
+#carousel5:checked ~ .carousel__stage .carousel__item:nth-child(5),
+#carousel6:checked ~ .carousel__stage .carousel__item:nth-child(6),
+#carousel7:checked ~ .carousel__stage .carousel__item:nth-child(7),
+#carousel8:checked ~ .carousel__stage .carousel__item:nth-child(8),
+#carousel9:checked ~ .carousel__stage .carousel__item:nth-child(9),
+#carousel10:checked ~ .carousel__stage .carousel__item:nth-child(10),
+#carousel11:checked ~ .carousel__stage .carousel__item:nth-child(11),
+#carousel12:checked ~ .carousel__stage .carousel__item:nth-child(12),
+#carousel13:checked ~ .carousel__stage .carousel__item:nth-child(13),
+#carousel14:checked ~ .carousel__stage .carousel__item:nth-child(14),
+#carousel15:checked ~ .carousel__stage .carousel__item:nth-child(15),
+#carousel16:checked ~ .carousel__stage .carousel__item:nth-child(16),
+#carousel17:checked ~ .carousel__stage .carousel__item:nth-child(17),
+#carousel18:checked ~ .carousel__stage .carousel__item:nth-child(18),
+#carousel19:checked ~ .carousel__stage .carousel__item:nth-child(19),
+#carousel20:checked ~ .carousel__stage .carousel__item:nth-child(20) {
   opacity: 1;
 }
 
@@ -456,32 +422,32 @@ a {
 #carousel11:checked ~ .carousel__stage {
   text-indent: -1000%;
 }
-#carousel2:checked ~ .carousel__stage {
-  text-indent: -2000%;
+#carousel12:checked ~ .carousel__stage {
+  text-indent: -1100%;
 }
 #carousel13:checked ~ .carousel__stage {
-  text-indent: -3000%;
+  text-indent: -1200%;
 }
 #carousel14:checked ~ .carousel__stage {
-  text-indent: -4000%;
+  text-indent: -1300%;
 }
 #carousel15:checked ~ .carousel__stage {
-  text-indent: -5000%;
+  text-indent: -1400%;
 }
 #carousel16:checked ~ .carousel__stage {
-  text-indent: -6000%;
+  text-indent: -1500%;
 }
 #carousel17:checked ~ .carousel__stage {
-  text-indent: -7000%;
+  text-indent: -1600%;
 }
 #carousel18:checked ~ .carousel__stage {
-  text-indent: -8000%;
+  text-indent: -1700%;
 }
-#carousel119:checked ~ .carousel__stage {
-  text-indent: -9000%;
+#carousel19:checked ~ .carousel__stage {
+  text-indent: -1800%;
 }
 #carousel20:checked ~ .carousel__stage {
-  text-indent: -10000%;
+  text-indent: -1900%;
 }
 
 #carousel1:checked
