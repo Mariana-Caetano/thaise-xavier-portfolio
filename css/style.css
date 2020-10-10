@@ -538,10 +538,11 @@ a {
   header {
     background-image: url('../img/thaise_logo.png');
     background-size: 25%;
-    background-position: center 15%;
+    background-position: center 18%;
   }
   header nav ul li a {
     font-size: 95%;
+    line-height: 2.5rem;
   }
 
   h1 {
