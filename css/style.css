@@ -739,7 +739,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 720px) {
   body {
     background-image: url('../img/Android\ -.png');
     background-size: 100%;
