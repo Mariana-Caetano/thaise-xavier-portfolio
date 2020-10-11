@@ -10,8 +10,8 @@ body {
   background-image: url('../img/Desktop\ -.png');
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 5050px;
-  width: 1428px;
+  /*height: 5050px;
+  width: 1428px;*/
   background-color: #e5e5e5;
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -29,7 +29,7 @@ header {
 
 header nav {
   position: absolute;
-  top: 32px;
+  top: 10px;
   right: 0;
   left: 0;
   z-index: 1030;
@@ -519,6 +519,7 @@ a {
 footer {
   margin-bottom: auto;
 }
+
 @media screen and (max-width: 1200px) {
   body {
     background-size: 100%;
@@ -855,16 +856,12 @@ footer {
     margin-bottom: 50px;
   }
   footer img {
-    width: 185, 53px;
+    width: 185.53px;
     height: 189px;
   }
 }
 
 @media screen and (max-width:480px){
-	body {
-    background-size: 100%;
-    width: 100%;
-
     body {
       background-image: url('../img/Android\ -.png');
       background-size: 100%;
@@ -876,20 +873,22 @@ footer {
       width: 360px;
       height: 550px;
     }*/
+    header{
+      padding-bottom: 25px;
+    }
     header nav {
       display: block;
     }
-  
     nav ul {
       display: inline;
       flex-direction: column;
       text-align: center;
-      width: 85%;
+      width: 30%;
     }
   
     header nav ul li a {
       font-size: 14px;
-      line-height: 30px;
+      line-height: 25px;
     }
   
     h1 {
@@ -897,7 +896,7 @@ footer {
       line-height: 3rem;
       width: 90%;
       margin-top: 150px;
-      margin-bottom: -100px;
+      margin-bottom: -130px;
     }
     header p {
       font-size: 16px;
@@ -911,15 +910,15 @@ footer {
     #sobre {
       display: block;
       padding-left: 0;
-      padding-right: 0;
-      padding-top: 0px;
+      padding-right: 20px;
+      padding-top: 10px;
     }
     .texto-sobre {
       padding-left: 27px;
       padding-top: 0px;
       display: flex;
       flex-direction: column;
-      padding-bottom: 25px;
+      padding-bottom: 40px;
       text-align: left;
       font-size: 16px;
       width: 95%;
@@ -943,13 +942,14 @@ footer {
       width: 50%;
     }
   
-    .clientes {
-      padding-bottom: 30px;
+    .clients {
+      padding-bottom: 15px;
+      font-size: 100%
     }
-  
-    .clients li {
-      font-size: 14px;
+    .clients a{
+      font-size: 100%
     }
+
   
     ul li span .carousel__image {
       height: 85%;
@@ -981,7 +981,7 @@ footer {
       margin-bottom: 50px;
     }
     footer img {
-      width: 185, 53px;
+      width: 185.53px;
       height: 189px;
     }
 }
