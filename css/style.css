@@ -751,6 +751,129 @@ footer {
     width: 360px;
     height: 550px;
   }*/
+  header{
+    padding-bottom: 25px;
+  }
+  header nav {
+    display: block;
+  }
+  nav ul {
+    display: inline;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+  }
+
+  header nav ul li a {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  h1 {
+    font-size: 22px;
+    line-height: 3rem;
+    width: 90%;
+    margin-top: 150px;
+    margin-bottom: -130px;
+  }
+  header p {
+    font-size: 16px;
+    height: 35px;
+  }
+
+  .contato {
+    font-size: 18px;
+  }
+
+  #sobre {
+    display: block;
+    padding-left: 0;
+    padding-right: 20px;
+    padding-top: 10px;
+  }
+  .texto-sobre {
+    padding-left: 27px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    text-align: left;
+    font-size: 16px;
+    width: 95%;
+  }
+  h2 {
+    font-size: 16px;
+    padding-top: 0;
+  }
+
+  ul {
+    padding-left: 5px;
+    padding-right: 28px;
+  }
+
+  .titulo-servicos ul {
+    text-align-last: left;
+  }
+
+  ul li span {
+    font-size: 15px;
+    width: 50%;
+  }
+
+  .clients {
+    padding-bottom: 15px;
+    font-size: 100%
+  }
+  .clients a{
+    font-size: 100%
+  }
+
+
+  ul li span .carousel__image {
+    height: 85%;
+    width: 85%;
+    padding-bottom: 100px;
+    display: inline-block;
+  }
+
+  .carousel__next,
+  .carousel__prev {
+    display: none;
+    position: absolute;
+    top: 25%;
+    color: #fff;
+    background: #2a4d6b;
+    z-index: 1;
+    font-size: 1rem;
+    padding: 9px;
+    cursor: pointer;
+  }
+  #retangulo1 {
+    width: 100%;
+  }
+  #retangulo2 {
+    width: 100%;
+  }
+
+  footer {
+    margin-bottom: 50px;
+  }
+  footer img {
+    width: 185.53px;
+    height: 189px;
+  }
+  
+  /*body {
+    background-image: url('../img/Android\ -.png');
+    background-size: 100%;
+    width: 100%;
+  }
+  body {
+    background-image: url('../img/Android\ -.png');
+    background-size: cover;
+    width: 360px;
+    height: 550px;
+  }
   header nav {
     display: block;
   }
@@ -858,7 +981,7 @@ footer {
   footer img {
     width: 185.53px;
     height: 189px;
-  }
+  }*/
 }
 
 @media screen and (max-width:480px){
