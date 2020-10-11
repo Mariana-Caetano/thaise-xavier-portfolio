@@ -1,202 +1,139 @@
-/**,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
+* {
   box-sizing: border-box;
-}*/
+}
 
 body {
-  background-image: url('../img/Desktop\ -.png');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  /*height: 5050px;
-  width: 1428px;*/
-  background-color: #e5e5e5;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  background-color: #f2f2f2;
   color: #2a4d6b;
-  margin: 0px;
+  margin: 0;
 }
 
-header {
-  display: inline-block;
-  width: 90%;
-  max-width: 980px;
-  margin: 50px auto;
-  padding: 0 0 109px 0;
-}
-
-header nav {
-  position: absolute;
-  top: 10px;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-}
-
-header p {
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
-  font-size: 24px;
-  padding-top: 90;
-}
-
-header nav ul {
+/*body header h1 {
   display: flex;
-  flex-wrap: wrap;
-  -webkit-box-align: center;
-  align-items: center;
-  -webkit-box-pack: justify;
-  justify-content: space-around;
-  padding: 0.5rem 1rem;
-}
-
-header nav ul li {
-  list-style: none;
-  padding-left: 80px;
-  padding-right: 15px;
-}
-
-header nav ul li a {
-  text-decoration: none;
-  color: #2a4d6b;
-  font-size: 24px;
-  font-weight: 400;
-  width: 90%;
-  max-width: 980px;
-  margin: auto;
-  padding: 50px;
-}
+  margin: 280px 166px 142px 165px;
+}*/
 
 h1 {
-  font-family: 'Playfair Display', serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 167%;
-  color: #2a4d6b;
-  margin: 268px auto 142px auto;
-  text-align: center;
-  width: 1109px;
-  height: 400px;
-}
-
-.contato {
-  font-family: 'Playfair Display', serif;
-  font-weight: 700;
-  font-size: 20px;
-  text-decoration: none;
-  text-align: center;
-  padding: 35px;
-  color: #ff9582;
-  margin-bottom: 242px;
-}
-
-#sobre {
-  text-align: left;
-  padding-top: 115px;
-  padding-bottom: 114px;
-  padding-left: 400px;
-  padding-right: 250px;
-  margin-top: 35px;
-}
-
-.texto-sobre {
-  text-align: left;
-  font-family: 'Work Sans', serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 160%;
-  color: #edd6b9;
-  width: 90%;
-  max-width: 980px;
-  padding-bottom: 50px;
-}
-#servicos {
-  text-align: justify;
-  width: 90%;
-  max-width: 1000px;
-  margin: auto;
+  font-family: Playfair Display;
+  font-style: 400px;
+  font-weight: bold;
+  font-size: 3.75rem;
+  margin-top: 280px;
+  margin-bottom: 142px;
 }
 
 h2 {
   font-family: 'Work Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  text-transform: uppercase;
-  text-align: center;
-  letter-spacing: 0.25em;
-  padding-top: 120px;
-  padding-bottom: 60px;
+  font-size: 1.5rem;
   color: #ff9582;
+  letter-spacing: 0.25em;
+  margin-top: 120px;
 }
 
-.li-servicos {
-  list-style-type: none;
-  padding-bottom: 50px;
-  padding-left: 18px;
-}
-
-ul li span {
-  color: #2a4d6b;
-  font-family: Work Sans;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 160%;
-}
-
-#clientes {
-  text-align: center;
-  width: 90%;
-  max-width: 980px;
-  margin: auto;
-}
-
-.clients {
-  list-style-type: none;
+p {
   font-family: 'Work Sans', sans-serif;
+  font-style: normal;
   font-weight: 400;
-  font-size: 24px;
-  line-height: 220%;
+  font-size: 1.5rem;
+  color: #edd6b9;
+}
+
+.redes {
+  font-family: 'Playfair Display', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #2a4d6b;
+}
+
+section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+section section {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 2;
+  padding-left: 0;
 }
 
 a {
   text-decoration: none;
+  color: #2a4d6b;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.contato {
+  text-decoration: none;
   color: #ff9582;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.clients {
+  font-family: 'Work Sans', sans-serif;
+  color: #ff9582;
+  font-style: normal;
   font-weight: 600;
-  font-size: 24px;
+  font-size: 1.5rem;
+  text-decoration: underline;
 }
 
-#resultados {
-  text-align: center;
-  width: 90%;
-  max-width: 980px;
-  margin: auto;
+.li-servicos {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: #2a4d6b;
+  padding-top: 3%;
+  padding-left: 20%;
+  padding-right: 16%;
+  text-align: left;
 }
 
-.texto-result {
-  text-align: center;
-  margin-top: 120px;
+.customers {
+  font-family: 'Work Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 
-#retangulo1 {
-  width: 1000px;
-  height: 5px;
-  margin-bottom: 80px;
-  background-color: #6d95af;
+.menu {
+  height: 40px;
+  max-width: 85%;
+  margin: 0 auto;
 }
 
-#retangulo2 {
-  width: 1000px;
-  height: 5px;
-  margin-top: 0;
-  margin-bottom: 200.5px;
-  background-color: #6d95af;
+.menu li {
+  display: inline-block;
+  line-height: 2.5;
+  margin: 0 89px;
 }
 
+#sobre {
+  background: linear-gradient(113.87deg, #2a4d6b -14.91%, #6d95af 111.66%);
+  margin-top: 189px;
+  padding: 10%;
+  padding-left: 25%;
+  padding-right: 25%;
+  text-align: left;
+}
+
+.texto-sobre {
+}
+
+/*header h1 {
+  margin: 280px 166px 142px 165px;
+}*/
 .carousel {
   width: 100%;
   height: 100%;
@@ -518,599 +455,4 @@ a {
 
 footer {
   margin-bottom: auto;
-}
-
-@media screen and (max-width: 1200px) {
-  body {
-    background-size: 100%;
-    width: 100%;
-    height: 100%
-  }
-
-  nav ul {
-    display: inline;
-    flex-direction: row;
-    text-align: center;
-    width: 90%;
-  }
-
-  header nav ul li a {
-    font-size: 15px;
-  }
-
-  h1 {
-    font-size: 50px;
-    line-height: 4rem;
-    width: 90%;
-    margin-top: 200px;
-    margin-bottom: 10px;
-  }
-
-  .contato {
-    font-size: 18px;
-  }
-
-  #sobre {
-    display: block;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0px;
-  }
-  .texto-sobre {
-    padding-left: 260px;
-    padding-top: 0px;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 25px;
-    text-align: left;
-    font-size: 20px;
-    width: 60%;
-  }
-  h2 {
-    font-size: 20px;
-    padding-top: 10px;
-  }
-
-  ul {
-    padding-left: 100px;
-    padding-right: 50px;
-    margin-bottom: 120px;
-  }
-
-  .titulo-servicos ul {
-    text-align-last: left;
-  }
-
-  ul li span {
-    font-size: 20px;
-    width: 25%;
-  }
-
-  .clientes {
-    padding-bottom: 30px;
-  }
-
-  .clients li {
-    font-size: 14px;
-  }
-
-  ul li span .carousel__image {
-    height: 85%;
-    width: 85%;
-    padding-bottom: 100px;
-    display: inline-block;
-  }
-
-  .carousel__next,
-  .carousel__prev {
-    display: none;
-    position: absolute;
-    top: 25%;
-    color: #fff;
-    background: #2a4d6b;
-    z-index: 1;
-    font-size: 1rem;
-    padding: 9px;
-    cursor: pointer;
-  }
-  #retangulo1 {
-    width: 100%;
-  }
-  #retangulo2 {
-    width: 100%;
-  }
-
-  footer {
-    margin-bottom: 50px;
-  }
-  footer img {
-    width: 25%;
-    height: 25%;
-  }
-}
-
-@media screen and (max-width: 960px) {
-  body {
-    background-size: 100%;
-    width: 100%;
-    height: 100%
-  }
-
-  nav ul {
-    display: inline;
-    flex-direction: row;
-    text-align: center;
-    width: 100%;
-  }
-
-  header nav ul li a {
-    font-size: 60%;
-  }
-
-  h1 {
-    font-size: 40px;
-    line-height: 4rem;
-    width: 90%;
-    margin-top: 150px;
-    margin-bottom: -80px;
-  }
-
-  .contato {
-    font-size: 18px;
-  }
-
-  #sobre {
-    display: block;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0px;
-  }
-  .texto-sobre {
-    padding-left: 50px;
-    padding-top: 0px;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 25px;
-    text-align: left;
-    font-size: 20px;
-    width: 90%;
-  }
-
-  h2 {
-    font-size: 20px;
-    padding-top: 10px;
-  }
-
-  ul {
-    padding-left: 100px;
-    padding-right: 50px;
-    margin-bottom: 120px;
-  }
-
-  .titulo-servicos ul {
-    text-align-last: left;
-  }
-
-  ul li span {
-    font-size: 20px;
-    width: 25%;
-  }
-
-  .clientes {
-    padding-bottom: 30px;
-  }
-
-  .clients li {
-    font-size: 14px;
-  }
-
-  ul li span .carousel__image {
-    height: 85%;
-    width: 85%;
-    padding-bottom: 100px;
-    display: inline-block;
-  }
-
-  .carousel__next,
-  .carousel__prev {
-    display: none;
-    position: absolute;
-    top: 25%;
-    color: #fff;
-    background: #2a4d6b;
-    z-index: 1;
-    font-size: 1rem;
-    padding: 9px;
-    cursor: pointer;
-  }
-  #retangulo1 {
-    width: 100%;
-  }
-  #retangulo2 {
-    width: 100%;
-  }
-
-  footer {
-    margin-bottom: 50px;
-  }
-  footer img {
-    width: 25%;
-    height: 25%;
-  }
-}
-
-@media only screen and (max-width: 767px) {
-  body {
-    background-image: url('../img/Android\ -.png');
-    background-size: 100%;
-    width: 100%;
-  }
-  /*body {
-    background-image: url('../img/Android\ -.png');
-    background-size: cover;
-    width: 360px;
-    height: 550px;
-  }*/
-  header{
-    padding-bottom: 25px;
-  }
-  header nav {
-    display: block;
-  }
-  nav ul {
-    display: inline;
-    flex-direction: column;
-    text-align: center;
-    width: 30%;
-  }
-
-  header nav ul li a {
-    font-size: 14px;
-    line-height: 25px;
-  }
-
-  h1 {
-    font-size: 22px;
-    line-height: 3rem;
-    width: 90%;
-    margin-top: 150px;
-    margin-bottom: -130px;
-  }
-  header p {
-    font-size: 16px;
-    height: 35px;
-  }
-
-  .contato {
-    font-size: 18px;
-  }
-
-  #sobre {
-    display: block;
-    padding-left: 0;
-    padding-right: 20px;
-    padding-top: 10px;
-  }
-  .texto-sobre {
-    padding-left: 27px;
-    padding-top: 0px;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 40px;
-    text-align: left;
-    font-size: 16px;
-    width: 95%;
-  }
-  h2 {
-    font-size: 16px;
-    padding-top: 0;
-  }
-
-  ul {
-    padding-left: 5px;
-    padding-right: 28px;
-  }
-
-  .titulo-servicos ul {
-    text-align-last: left;
-  }
-
-  ul li span {
-    font-size: 15px;
-    width: 50%;
-  }
-
-  .clients {
-    padding-bottom: 15px;
-    font-size: 100%
-  }
-  .clients a{
-    font-size: 100%
-  }
-
-
-  ul li span .carousel__image {
-    height: 85%;
-    width: 85%;
-    padding-bottom: 100px;
-    display: inline-block;
-  }
-
-  .carousel__next,
-  .carousel__prev {
-    display: none;
-    position: absolute;
-    top: 25%;
-    color: #fff;
-    background: #2a4d6b;
-    z-index: 1;
-    font-size: 1rem;
-    padding: 9px;
-    cursor: pointer;
-  }
-  #retangulo1 {
-    width: 100%;
-  }
-  #retangulo2 {
-    width: 100%;
-  }
-
-  footer {
-    margin-bottom: 50px;
-  }
-  footer img {
-    width: 185.53px;
-    height: 189px;
-  }
-  
-  /*body {
-    background-image: url('../img/Android\ -.png');
-    background-size: 100%;
-    width: 100%;
-  }
-  body {
-    background-image: url('../img/Android\ -.png');
-    background-size: cover;
-    width: 360px;
-    height: 550px;
-  }
-  header nav {
-    display: block;
-  }
-
-  nav ul {
-    display: inline;
-    flex-direction: column;
-    text-align: center;
-    width: 85%;
-  }
-
-  header nav ul li a {
-    font-size: 14px;
-    line-height: 30px;
-  }
-
-  h1 {
-    font-size: 22px;
-    line-height: 3rem;
-    width: 90%;
-    margin-top: 150px;
-    margin-bottom: -100px;
-  }
-  header p {
-    font-size: 16px;
-    height: 35px;
-  }
-
-  .contato {
-    font-size: 18px;
-  }
-
-  #sobre {
-    display: block;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0px;
-  }
-  .texto-sobre {
-    padding-left: 27px;
-    padding-top: 0px;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 25px;
-    text-align: left;
-    font-size: 16px;
-    width: 95%;
-  }
-  h2 {
-    font-size: 16px;
-    padding-top: 0;
-  }
-
-  ul {
-    padding-left: 5px;
-    padding-right: 28px;
-  }
-
-  .titulo-servicos ul {
-    text-align-last: left;
-  }
-
-  ul li span {
-    font-size: 15px;
-    width: 50%;
-  }
-
-  .clientes {
-    padding-bottom: 30px;
-  }
-
-  .clients li {
-    font-size: 14px;
-  }
-
-  ul li span .carousel__image {
-    height: 85%;
-    width: 85%;
-    padding-bottom: 100px;
-    display: inline-block;
-  }
-
-  .carousel__next,
-  .carousel__prev {
-    display: none;
-    position: absolute;
-    top: 25%;
-    color: #fff;
-    background: #2a4d6b;
-    z-index: 1;
-    font-size: 1rem;
-    padding: 9px;
-    cursor: pointer;
-  }
-  #retangulo1 {
-    width: 100%;
-  }
-  #retangulo2 {
-    width: 100%;
-  }
-
-  footer {
-    margin-bottom: 50px;
-  }
-  footer img {
-    width: 185.53px;
-    height: 189px;
-  }*/
-}
-
-@media only screen and (max-width:480px){
-    body {
-      background-image: url('../img/Android\ -.png');
-      background-size: 100%;
-      width: 100%;
-    }
-    /*body {
-      background-image: url('../img/Android\ -.png');
-      background-size: cover;
-      width: 360px;
-      height: 550px;
-    }*/
-    header{
-      padding-bottom: 25px;
-    }
-    header nav {
-      display: block;
-    }
-    nav ul {
-      display: inline;
-      flex-direction: column;
-      text-align: center;
-      width: 30%;
-    }
-  
-    header nav ul li a {
-      font-size: 14px;
-      line-height: 25px;
-    }
-  
-    h1 {
-      font-size: 22px;
-      line-height: 3rem;
-      width: 90%;
-      margin-top: 150px;
-      margin-bottom: -130px;
-    }
-    header p {
-      font-size: 16px;
-      height: 35px;
-    }
-  
-    .contato {
-      font-size: 18px;
-    }
-  
-    #sobre {
-      display: block;
-      padding-left: 0;
-      padding-right: 20px;
-      padding-top: 10px;
-    }
-    .texto-sobre {
-      padding-left: 27px;
-      padding-top: 0px;
-      display: flex;
-      flex-direction: column;
-      padding-bottom: 40px;
-      text-align: left;
-      font-size: 16px;
-      width: 95%;
-    }
-    h2 {
-      font-size: 16px;
-      padding-top: 0;
-    }
-  
-    ul {
-      padding-left: 5px;
-      padding-right: 28px;
-    }
-  
-    .titulo-servicos ul {
-      text-align-last: left;
-    }
-  
-    ul li span {
-      font-size: 15px;
-      width: 50%;
-    }
-  
-    .clients {
-      padding-bottom: 15px;
-      font-size: 100%
-    }
-    .clients a{
-      font-size: 100%
-    }
-
-  
-    ul li span .carousel__image {
-      height: 85%;
-      width: 85%;
-      padding-bottom: 100px;
-      display: inline-block;
-    }
-  
-    .carousel__next,
-    .carousel__prev {
-      display: none;
-      position: absolute;
-      top: 25%;
-      color: #fff;
-      background: #2a4d6b;
-      z-index: 1;
-      font-size: 1rem;
-      padding: 9px;
-      cursor: pointer;
-    }
-    #retangulo1 {
-      width: 100%;
-    }
-    #retangulo2 {
-      width: 100%;
-    }
-  
-    footer {
-      margin-bottom: 50px;
-    }
-    footer img {
-      width: 185.53px;
-      height: 189px;
-    }
-}
-
-@media screen and (max-width:320px){
-	body {
-    background-size: 100%;
-    width: 100%;
 }
