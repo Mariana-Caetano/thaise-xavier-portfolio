@@ -21,8 +21,9 @@ h1 {
   font-size: 3.75rem;
   margin-top: 280px;
   margin-bottom: 142px;
-  padding-left: 10%;
-  padding-right: 5%;
+  padding-left: 14%;
+  padding-right: 11%;
+  text-align: center;
 }
 
 h2 {
@@ -49,6 +50,7 @@ p {
   font-weight: 700;
   font-size: 1.25rem;
   color: #2a4d6b;
+  text-align: center;
 }
 
 section {
@@ -132,23 +134,26 @@ a {
 }
 
 #retangulo1 {
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 70%;
   margin-top: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 2%;
+  margin-left: 17.5%;
   height: 5px;
   background-color: #2a4d6b;
 }
 
 #retangulo2 {
-  width: 80%;
+  width: 70%;
   height: 5px;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 0;
-  margin-bottom: 15%;
+  margin-bottom: 2%;
+  margin-left: 17.5%;
   background-color: #2a4d6b;
+}
+
+#resultados {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 10%;
 }
 
 .carousel {
@@ -183,9 +188,9 @@ a {
 }
 
 .carousel__image {
-  height: 60%;
-  width: 60%;
-  padding-bottom: 100px;
+  height: 85%;
+  width: 40%;
+  padding-bottom: 5%;
   display: inline-block;
 }
 
@@ -203,7 +208,7 @@ a {
 }
 
 .carousel__prev {
-  left: 0;
+  padding-left: 18%;
 }
 
 .carousel__prev:after {
@@ -212,7 +217,7 @@ a {
 }
 
 .carousel__next {
-  right: 0;
+  padding-left: 82%;
 }
 
 .carousel__next:after {
@@ -471,12 +476,12 @@ a {
 }
 
 footer {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 footer img {
-  width: 321px;
-  height: 327px;
+  width: 220px;
+  height: 220px;
 }
 @media (max-width: 960px) {
   body {
@@ -525,9 +530,13 @@ footer img {
     font-size: 1rem;
   }
 
+  footer {
+    padding-top: 5%;
+  }
+
   footer img {
-    width: 40%;
-    height: 40%;
+    width: 150px;
+    height: 150px;
   }
 
   #sobre {
@@ -545,5 +554,39 @@ footer img {
     flex-direction: column;
     text-align: center;
     width: 30%;
+  }
+
+  #retangulo1 {
+    width: 90%;
+    margin-top: 10%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    height: 2px;
+    background-color: #2a4d6b;
+  }
+
+  #retangulo2 {
+    width: 90%;
+    height: 2px;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    background-color: #2a4d6b;
+  }
+
+  #resultados {
+    margin-bottom: 8%;
+  }
+
+  .carousel__image {
+    width: 100%;
+    padding-bottom: 5%;
+  }
+
+  .carousel__prev {
+    padding-left: 5%;
+  }
+
+  .carousel__next {
+    padding-left: 85%;
   }
 }
