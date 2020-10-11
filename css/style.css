@@ -7,23 +7,20 @@
 }
 
 body {
-  height: 100vh;
-  background-color: #e5e5e5;
-  background-image: url('../img/Mask\ Group.png');
+  background-image: url('../img/Desktop\ -.png');
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: top right;
-  background-size: 1460px;
+  height: 5050px;
+  width: 1428px;
+  background-color: #e5e5e5;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #2a4d6b;
   margin-bottom: 50px;
-  margin: 0;
+  margin: auto;
 }
 
 header {
-  background-image: url('../img/thaise_logo.png');
-  background-repeat: no-repeat;
-  background-position: top center;
   display: inline-block;
   width: 90%;
   max-width: 980px;
@@ -77,11 +74,13 @@ h1 {
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 60px;
   line-height: 167%px;
   color: #2a4d6b;
-  margin: 268px auto 90px auto;
+  margin: 268px auto 142px auto;
   text-align: center;
+  width: 1109px;
+  height: 400px;
 }
 
 .contato {
@@ -92,18 +91,20 @@ h1 {
   text-align: center;
   padding: 35px;
   color: #ff9582;
+  margin-bottom: 242px;
 }
 
 #sobre {
-  background: linear-gradient(113.87deg, #2a4d6b -14.91%, #6d95af 111.66%);
+  text-align: left;
   padding-top: 115px;
   padding-bottom: 114px;
-  padding-left: 330px;
-  padding-right: 160px;
+  padding-left: 400px;
+  padding-right: 250px;
+  margin-top: 35px;
 }
 
 .texto-sobre {
-  text-align: justify;
+  text-align: left;
   font-family: 'Work Sans', serif;
   font-style: normal;
   font-weight: normal;
@@ -115,10 +116,6 @@ h1 {
   padding-bottom: 50px;
 }
 #servicos {
-  background-image: url('../img/círculos.png');
-  background-repeat: no-repeat;
-  background-size: 1500px;
-  background-position: center;
   text-align: justify;
   width: 90%;
   max-width: 1000px;
@@ -133,13 +130,13 @@ h2 {
   text-transform: uppercase;
   text-align: center;
   letter-spacing: 0.25em;
-  padding-top: 125px;
+  padding-top: 120px;
   padding-bottom: 60px;
   color: #ff9582;
 }
 
 .li-servicos {
-  list-style-image: url('../img/Ellipse\ 3.png');
+  list-style-type: none;
   padding-bottom: 50px;
   padding-left: 18px;
 }
@@ -183,6 +180,7 @@ a {
 
 .texto-result {
   text-align: center;
+  margin-top: 120px;
 }
 
 #retangulo1 {
@@ -196,7 +194,7 @@ a {
   width: 1000px;
   height: 5px;
   margin-top: 0;
-  margin-bottom: 100px;
+  margin-bottom: 200.5px;
   background-color: #6d95af;
 }
 
@@ -242,11 +240,11 @@ a {
 .carousel__prev {
   display: none;
   position: absolute;
-  top: 50%;
-  color: #fff;
-  background: #2a4d6b;
+  top: 35%;
+  color: #2a4d6b;
+  background: transparent;
   z-index: 1;
-  font-size: 1rem;
+  font-size: 3rem;
   padding: 20px;
   cursor: pointer;
 }
@@ -256,7 +254,7 @@ a {
 }
 
 .carousel__prev:after {
-  content: ' << ';
+  content: ' < ';
   display: inline-block;
 }
 
@@ -265,7 +263,7 @@ a {
 }
 
 .carousel__next:after {
-  content: ' >> ';
+  content: ' > ';
   display: inline-block;
 }
 
@@ -518,60 +516,82 @@ a {
   .carousel__next {
   display: block;
 }
+
+footer {
+  margin-bottom: auto;
+}
+
 @media screen and (max-width: 767px) {
+  body {
+    background-image: url('../img/Android\ -.png');
+    background-size: cover;
+    width: 360px;
+    height: 550px;
+  }
   header nav {
-    display: inline-block;
-    width: fit-content;
+    display: block;
   }
 
   nav ul {
     display: inline;
-    flex-direction: row;
-    text-align: justify;
+    flex-direction: column;
+    text-align: center;
     width: 85%;
   }
 
-  nav ul li a {
-    width: 25%;
-  }
-
-  header {
-    background-image: url('../img/thaise_logo.png');
-    background-size: 25%;
-    background-position: center 18%;
-  }
   header nav ul li a {
-    font-size: 95%;
-    line-height: 2.5rem;
+    font-size: 14px;
+    line-height: 30px;
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 22px;
     line-height: 3rem;
-    width: 100%;
+    width: 90%;
+    margin-top: 150px;
+    margin-bottom: -100px;
   }
+  header p {
+    font-size: 16px;
+    height: 35px;
+  }
+
+  .contato {
+    font-size: 18px;
+  }
+
   #sobre {
     display: block;
     padding-left: 0;
     padding-right: 0;
-    padding-bottom: 115px;
+    padding-top: 0px;
   }
   .texto-sobre {
     padding-left: 27px;
-    padding-top: 14px;
+    padding-top: 0px;
     display: flex;
     flex-direction: column;
     padding-bottom: 25px;
-    text-align: center;
-    font-size: 1.5rem;
+    text-align: left;
+    font-size: 16px;
     width: 95%;
   }
-  .li-servicos {
-    text-align: center;
+  h2 {
+    font-size: 16px;
+    padding-top: 0;
+  }
+
+  ul {
+    padding-left: 5px;
+    padding-right: 28px;
+  }
+
+  .titulo-servicos ul {
+    text-align-last: left;
   }
 
   ul li span {
-    font-size: 1.5rem;
+    font-size: 15px;
     width: 50%;
   }
 
@@ -579,7 +599,11 @@ a {
     padding-bottom: 30px;
   }
 
-  .carousel__image {
+  .clients li {
+    font-size: 14px;
+  }
+
+  ul li span .carousel__image {
     height: 85%;
     width: 85%;
     padding-bottom: 100px;
@@ -603,5 +627,13 @@ a {
   }
   #retangulo2 {
     width: 100%;
+  }
+
+  footer {
+    margin-bottom: 50px;
+  }
+  footer img {
+    width: 185, 53px;
+    height: 189px;
   }
 }
