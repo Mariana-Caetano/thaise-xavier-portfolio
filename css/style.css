@@ -131,12 +131,26 @@ a {
   text-align: left;
 }
 
-/*.texto-sobre {
+#retangulo1 {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  height: 5px;
+  background-color: #2a4d6b;
 }
 
-header h1 {
-  margin: 280px 166px 142px 165px;
-}*/
+#retangulo2 {
+  width: 80%;
+  height: 5px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0;
+  margin-bottom: 200.5px;
+  background-color: #2a4d6b;
+}
+
 .carousel {
   width: 100%;
   height: 100%;
