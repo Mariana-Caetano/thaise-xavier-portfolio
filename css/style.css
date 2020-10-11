@@ -1,14 +1,14 @@
-*,
+/**,
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
+}*/
 
 body {
   background-image: url('../img/Desktop\ -.png');
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   height: 5050px;
   width: 1428px;
@@ -16,8 +16,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #2a4d6b;
-  margin-bottom: 50px;
-  margin: auto;
+  margin: 0px;
 }
 
 header {
@@ -75,7 +74,7 @@ h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 60px;
-  line-height: 167%px;
+  line-height: 167%;
   color: #2a4d6b;
   margin: 268px auto 142px auto;
   text-align: center;
@@ -520,14 +519,237 @@ a {
 footer {
   margin-bottom: auto;
 }
+@media screen and (max-width: 1200px) {
+  body {
+    background-size: 100%;
+    width: 100%;
+    height: 100%
+  }
+
+  nav ul {
+    display: inline;
+    flex-direction: row;
+    text-align: center;
+    width: 90%;
+  }
+
+  header nav ul li a {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 50px;
+    line-height: 4rem;
+    width: 90%;
+    margin-top: 200px;
+    margin-bottom: 10px;
+  }
+
+  .contato {
+    font-size: 18px;
+  }
+
+  #sobre {
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0px;
+  }
+  .texto-sobre {
+    padding-left: 260px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+    text-align: left;
+    font-size: 20px;
+    width: 60%;
+  }
+  h2 {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  ul {
+    padding-left: 100px;
+    padding-right: 50px;
+    margin-bottom: 120px;
+  }
+
+  .titulo-servicos ul {
+    text-align-last: left;
+  }
+
+  ul li span {
+    font-size: 20px;
+    width: 25%;
+  }
+
+  .clientes {
+    padding-bottom: 30px;
+  }
+
+  .clients li {
+    font-size: 14px;
+  }
+
+  ul li span .carousel__image {
+    height: 85%;
+    width: 85%;
+    padding-bottom: 100px;
+    display: inline-block;
+  }
+
+  .carousel__next,
+  .carousel__prev {
+    display: none;
+    position: absolute;
+    top: 25%;
+    color: #fff;
+    background: #2a4d6b;
+    z-index: 1;
+    font-size: 1rem;
+    padding: 9px;
+    cursor: pointer;
+  }
+  #retangulo1 {
+    width: 100%;
+  }
+  #retangulo2 {
+    width: 100%;
+  }
+
+  footer {
+    margin-bottom: 50px;
+  }
+  footer img {
+    width: 25%;
+    height: 25%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  body {
+    background-size: 100%;
+    width: 100%;
+    height: 100%
+  }
+
+  nav ul {
+    display: inline;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+  }
+
+  header nav ul li a {
+    font-size: 60%;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 4rem;
+    width: 90%;
+    margin-top: 150px;
+    margin-bottom: -80px;
+  }
+
+  .contato {
+    font-size: 18px;
+  }
+
+  #sobre {
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0px;
+  }
+  .texto-sobre {
+    padding-left: 50px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 25px;
+    text-align: left;
+    font-size: 20px;
+    width: 90%;
+  }
+
+  h2 {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  ul {
+    padding-left: 100px;
+    padding-right: 50px;
+    margin-bottom: 120px;
+  }
+
+  .titulo-servicos ul {
+    text-align-last: left;
+  }
+
+  ul li span {
+    font-size: 20px;
+    width: 25%;
+  }
+
+  .clientes {
+    padding-bottom: 30px;
+  }
+
+  .clients li {
+    font-size: 14px;
+  }
+
+  ul li span .carousel__image {
+    height: 85%;
+    width: 85%;
+    padding-bottom: 100px;
+    display: inline-block;
+  }
+
+  .carousel__next,
+  .carousel__prev {
+    display: none;
+    position: absolute;
+    top: 25%;
+    color: #fff;
+    background: #2a4d6b;
+    z-index: 1;
+    font-size: 1rem;
+    padding: 9px;
+    cursor: pointer;
+  }
+  #retangulo1 {
+    width: 100%;
+  }
+  #retangulo2 {
+    width: 100%;
+  }
+
+  footer {
+    margin-bottom: 50px;
+  }
+  footer img {
+    width: 25%;
+    height: 25%;
+  }
+}
 
 @media screen and (max-width: 767px) {
   body {
     background-image: url('../img/Android\ -.png');
+    background-size: 100%;
+    width: 100%;
+  }
+  /*body {
+    background-image: url('../img/Android\ -.png');
     background-size: cover;
     width: 360px;
     height: 550px;
-  }
+  }*/
   header nav {
     display: block;
   }
@@ -636,4 +858,136 @@ footer {
     width: 185, 53px;
     height: 189px;
   }
+}
+
+@media screen and (max-width:480px){
+	body {
+    background-size: 100%;
+    width: 100%;
+
+    body {
+      background-image: url('../img/Android\ -.png');
+      background-size: 100%;
+      width: 100%;
+    }
+    /*body {
+      background-image: url('../img/Android\ -.png');
+      background-size: cover;
+      width: 360px;
+      height: 550px;
+    }*/
+    header nav {
+      display: block;
+    }
+  
+    nav ul {
+      display: inline;
+      flex-direction: column;
+      text-align: center;
+      width: 85%;
+    }
+  
+    header nav ul li a {
+      font-size: 14px;
+      line-height: 30px;
+    }
+  
+    h1 {
+      font-size: 22px;
+      line-height: 3rem;
+      width: 90%;
+      margin-top: 150px;
+      margin-bottom: -100px;
+    }
+    header p {
+      font-size: 16px;
+      height: 35px;
+    }
+  
+    .contato {
+      font-size: 18px;
+    }
+  
+    #sobre {
+      display: block;
+      padding-left: 0;
+      padding-right: 0;
+      padding-top: 0px;
+    }
+    .texto-sobre {
+      padding-left: 27px;
+      padding-top: 0px;
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 25px;
+      text-align: left;
+      font-size: 16px;
+      width: 95%;
+    }
+    h2 {
+      font-size: 16px;
+      padding-top: 0;
+    }
+  
+    ul {
+      padding-left: 5px;
+      padding-right: 28px;
+    }
+  
+    .titulo-servicos ul {
+      text-align-last: left;
+    }
+  
+    ul li span {
+      font-size: 15px;
+      width: 50%;
+    }
+  
+    .clientes {
+      padding-bottom: 30px;
+    }
+  
+    .clients li {
+      font-size: 14px;
+    }
+  
+    ul li span .carousel__image {
+      height: 85%;
+      width: 85%;
+      padding-bottom: 100px;
+      display: inline-block;
+    }
+  
+    .carousel__next,
+    .carousel__prev {
+      display: none;
+      position: absolute;
+      top: 25%;
+      color: #fff;
+      background: #2a4d6b;
+      z-index: 1;
+      font-size: 1rem;
+      padding: 9px;
+      cursor: pointer;
+    }
+    #retangulo1 {
+      width: 100%;
+    }
+    #retangulo2 {
+      width: 100%;
+    }
+  
+    footer {
+      margin-bottom: 50px;
+    }
+    footer img {
+      width: 185, 53px;
+      height: 189px;
+    }
+}
+
+@media screen and (max-width:320px){
+	body {
+    background-size: 100%;
+    width: 100%;
 }
