@@ -14,13 +14,8 @@ body {
   margin: 0;
 }
 
-/*body header h1 {
-  display: flex;
-  margin: 280px 166px 142px 165px;
-}*/
-
 h1 {
-  font-family: Playfair Display;
+  font-family: 'Playfair Display', sans-serif;
   font-style: 400px;
   font-weight: bold;
   font-size: 3.75rem;
@@ -468,4 +463,73 @@ footer {
 footer img {
   width: 321px;
   height: 327px;
+}
+@media (max-width: 768px) {
+  body {
+    background-image: url('../img/Android\ -\ 2.png');
+    background-size: cover;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    padding-left: 2%;
+    padding-right: 5%;
+    margin-top: 50%;
+    margin-bottom: 15%;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .redes {
+    font-size: 1rem;
+  }
+
+  a {
+    font-size: 0.9rem;
+  }
+
+  .clients {
+    font-size: 1rem;
+  }
+
+  .li-servicos {
+    font-size: 1rem;
+    color: #2a4d6b;
+    padding-top: 12%;
+    padding-left: 8%;
+    padding-right: 5%;
+    text-align: left;
+  }
+
+  .customers {
+    font-size: 1rem;
+  }
+
+  footer img {
+    width: 40%;
+    height: 40%;
+  }
+
+  #sobre {
+    margin-top: 15%;
+    padding: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  header nav {
+    display: block;
+  }
+  nav ul {
+    display: inline;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+  }
 }
