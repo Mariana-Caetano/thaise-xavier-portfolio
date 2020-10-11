@@ -478,7 +478,7 @@ footer img {
   width: 321px;
   height: 327px;
 }
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   body {
     background-image: url('../img/Android\ -\ 2.png');
     background-size: cover;
