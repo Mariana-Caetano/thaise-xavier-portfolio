@@ -3,6 +3,9 @@
 }
 
 body {
+  background-image: url('../img/Desktop\ -\ 2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   font-family: 'Work Sans', sans-serif;
   background-color: #f2f2f2;
