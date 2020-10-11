@@ -22,6 +22,8 @@ h1 {
   font-size: 3.75rem;
   margin-top: 280px;
   margin-bottom: 142px;
+  padding-left: 10%;
+  padding-right: 5%;
 }
 
 h2 {
@@ -71,6 +73,8 @@ a {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .contato {
@@ -128,10 +132,10 @@ a {
   text-align: left;
 }
 
-.texto-sobre {
+/*.texto-sobre {
 }
 
-/*header h1 {
+header h1 {
   margin: 280px 166px 142px 165px;
 }*/
 .carousel {
@@ -166,8 +170,8 @@ a {
 }
 
 .carousel__image {
-  height: 85%;
-  width: 85%;
+  height: 60%;
+  width: 60%;
   padding-bottom: 100px;
   display: inline-block;
 }
@@ -454,5 +458,10 @@ a {
 }
 
 footer {
-  margin-bottom: auto;
+  margin-bottom: 10%;
+}
+
+footer img {
+  width: 321px;
+  height: 327px;
 }
